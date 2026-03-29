@@ -1,12 +1,12 @@
 export const metadata = {
-  title: "MoonTV",
-  description: "Free TV",
+  title: "MoonTV 影视",
+  description: "免费影视站"
 }
 
-export default function RootLayout({ children }) {
+export default function Layout({ children }) {
   return (
     <html lang="zh-CN">
-      <body style={{ margin: 0, background: "#111" }}>
+      <body style="margin:0; background:#111; color:#fff; font-family:system-ui">
         {children}
       </body>
     </html>
